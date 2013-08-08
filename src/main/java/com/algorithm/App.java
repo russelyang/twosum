@@ -51,6 +51,7 @@ public class App
                 Long y = t - x;
                 if((!x.equals(y)) && all.contains(y)) {
                     totalTwoNum++;
+                    break;
                 }
             }
         }
